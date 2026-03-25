@@ -1,0 +1,34 @@
+# Node.js 依赖（可通过 npm install 重新生成）
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+
+# 自动生成的类型声明文件
+frontend/src/auto-imports.d.ts
+frontend/src/components.d.ts
+
+# 日志
+*.log
+npm-debug.log*
+
+# 环境变量（含敏感信息，不提交）
+.env
+.env.local
+.env.*.local
+
+# 编辑器
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# Java 构建产物
+target/
+*.class
+*.jar
